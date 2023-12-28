@@ -61,6 +61,7 @@ kotlin {
         dependencies {
           implementation(libs.compose.ui.testing.junit)
           implementation(libs.junit)
+          implementation(libs.kotlin.test)
           implementation(libs.truth)
         }
       }
